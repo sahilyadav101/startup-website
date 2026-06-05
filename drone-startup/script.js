@@ -15,7 +15,7 @@ form.addEventListener("submit", async (e) => {
     };
 
     const response = await fetch(
-        ""https://skyvision-api2.onrender.com/contact"",
+        "https://skyvision-api2.onrender.com/contact",
         {
             method: "POST",
             headers: {
